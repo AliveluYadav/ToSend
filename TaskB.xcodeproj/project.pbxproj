@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B0473AB20D7B4D200CA9E9C /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0473AA20D7B4D200CA9E9C /* CollectionViewCell.swift */; };
 		2B19694E20D781E100E28E42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B19694D20D781E100E28E42 /* AppDelegate.swift */; };
 		2B19695020D781E100E28E42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B19694F20D781E100E28E42 /* ViewController.swift */; };
 		2B19695320D781E100E28E42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B19695120D781E100E28E42 /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 		2B19695B20D781E200E28E42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B19695920D781E200E28E42 /* LaunchScreen.storyboard */; };
 		2B19696620D781E200E28E42 /* TaskBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B19696520D781E200E28E42 /* TaskBTests.swift */; };
 		2B19697120D781E200E28E42 /* TaskBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B19697020D781E200E28E42 /* TaskBUITests.swift */; };
+		2B19697F20D7853F00E28E42 /* CollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B19697E20D7853F00E28E42 /* CollectionVC.swift */; };
+		2B19698120D7855500E28E42 /* PageViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B19698020D7855500E28E42 /* PageViewVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B0473AA20D7B4D200CA9E9C /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		2B19694A20D781E100E28E42 /* TaskB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B19694D20D781E100E28E42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B19694F20D781E100E28E42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +53,8 @@
 		2B19696C20D781E200E28E42 /* TaskBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B19697020D781E200E28E42 /* TaskBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskBUITests.swift; sourceTree = "<group>"; };
 		2B19697220D781E200E28E42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B19697E20D7853F00E28E42 /* CollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionVC.swift; sourceTree = "<group>"; };
+		2B19698020D7855500E28E42 /* PageViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,9 @@
 		2B19694120D781E100E28E42 = {
 			isa = PBXGroup;
 			children = (
+				2B0473AA20D7B4D200CA9E9C /* CollectionViewCell.swift */,
+				2B19698020D7855500E28E42 /* PageViewVC.swift */,
+				2B19697E20D7853F00E28E42 /* CollectionVC.swift */,
 				2B19694C20D781E100E28E42 /* TaskB */,
 				2B19696420D781E200E28E42 /* TaskBTests */,
 				2B19696F20D781E200E28E42 /* TaskBUITests */,
@@ -263,7 +272,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B19695620D781E100E28E42 /* TaskB.xcdatamodeld in Sources */,
+				2B19698120D7855500E28E42 /* PageViewVC.swift in Sources */,
+				2B0473AB20D7B4D200CA9E9C /* CollectionViewCell.swift in Sources */,
 				2B19695020D781E100E28E42 /* ViewController.swift in Sources */,
+				2B19697F20D7853F00E28E42 /* CollectionVC.swift in Sources */,
 				2B19694E20D781E100E28E42 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +443,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z74PX5HE8C;
 				INFOPLIST_FILE = TaskB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Aktrix.TaskB;
@@ -445,6 +458,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z74PX5HE8C;
 				INFOPLIST_FILE = TaskB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Aktrix.TaskB;
